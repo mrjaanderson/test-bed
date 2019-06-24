@@ -1,0 +1,91 @@
+body {
+    font-family: "Roboto";
+    background-image: linear-gradient(to right, steelblue, rgb(255, 183, 175));
+}
+ 
+.container {
+    width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+header {
+    background-color: steelblue;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+header div {
+    padding: 10px 20px;
+}
+
+.input-container {
+    width:inherit;
+}
+
+input {
+    box-sizing: border-box;
+    background-color: #efefef;
+    border: 3px solid rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 15px;
+    font-size: 1.1rem;
+    width: inherit;
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid steelblue;
+    outline: none;
+}
+
+.entry {
+    box-sizing: border-box;
+    width: 100%;
+    background: white;
+}
+
+.icon + div {
+    padding: 10px;
+    cursor: default;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.fa-trash-alt {
+    text-align: center;
+    box-sizing: content-box;
+    padding: 11px 0;
+    background-color: red;
+    color: white;
+    display: none;
+    width: 40px;
+}
+
+.icon {
+    display:none;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.gray-bg {
+    background-color: #efefef;
+}

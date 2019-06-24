@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background: #222;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    top: 0;
+    display: flex;
+    background: rgb(75, 127, 206);
+    text-transform: uppercase;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrap {
+    text-align: center;
+    width: 50%;
+    line-height: .8rem;
+}
+
+.header-wrap p {
+    font-size: 1.5rem;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.nav-wrap > *{
+    width: 33%;
+}
+
+#gameMsg {
+    font-size: .8rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+
+.mode-wrap {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+    color: rgb(75, 127, 206);
+    padding: 5px;
+}
+
+button:hover {
+    background: rgb(75, 127, 206);
+    color: white;
+    transition: background .5s, color .5s;
+}
+
+#easy, #hard {
+    padding: 0 10px;
+}
+
+button:focus{
+    outline: none;
+}
+
+content {
+    background: red;
+    height: 100%;
+}
+
+.square-wrapper {
+    width:50%;
+    margin: 0 auto;
+    background: #222;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.rgb-squares {
+    width: 30%;
+    border-radius: 10%;
+    background: blue;
+}
+
+.hide {
+    display:none;
+}
+
+.selected {
+    background: rgb(75, 127, 206);
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
